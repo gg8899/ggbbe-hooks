@@ -65,6 +65,12 @@ devDependencies:
   encode-fe-lint:
     specifier: ^1.0.9
     version: 1.0.9(typescript@5.3.3)
+  eslint:
+    specifier: ^7.2.0
+    version: 7.32.0
+  eslint-plugin-react-hooks:
+    specifier: ^4.0.8
+    version: 4.6.0(eslint@7.32.0)
   fast-glob:
     specifier: ^3.2.11
     version: 3.3.2
@@ -83,6 +89,9 @@ devDependencies:
   gulp-typescript:
     specifier: ^6.0.0-alpha.1
     version: 6.0.0-alpha.1(typescript@5.3.3)
+  husky:
+    specifier: ^8.0.0
+    version: 8.0.3
   jest:
     specifier: ^29.4.1
     version: 29.7.0(@types/node@20.11.24)
@@ -95,6 +104,9 @@ devDependencies:
   mockjs:
     specifier: ^1.1.0
     version: 1.1.0
+  prettier:
+    specifier: ^2.0.5
+    version: 2.8.8
   pretty-quick:
     specifier: ^3.1.3
     version: 3.3.1(prettier@2.8.8)
@@ -8899,6 +8911,12 @@ packages:
       read-pkg: 5.2.0
       run-node: 1.0.0
       slash: 3.0.0
+    dev: true
+
+  /husky@8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /hyphenate-style-name@1.0.4:
