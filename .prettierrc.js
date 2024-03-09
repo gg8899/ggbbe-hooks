@@ -1,8 +1,14 @@
 module.exports = {
-  printWidth: 100,
-  tabWidth: 2,
-  semi: true,
+  printWidth: 80,
+  proseWrap: 'never',
   singleQuote: true,
   trailingComma: 'all',
-  arrowParens: 'always',
+  overrides: [
+    {
+      files: '*.md',
+      options: {
+        proseWrap: 'preserve',
+      },
+    },
+  ],
 };
