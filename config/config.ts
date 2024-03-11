@@ -23,7 +23,7 @@ export default {
   title: 'ggbee react hooks',
   favicon: '/avatar.png',
   // logo: '/logo.png',
-  name: '首页',
+  // name: '首页',
   dynamicImport: {},
   manifest: {},
   hash: true,
